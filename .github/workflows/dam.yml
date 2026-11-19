@@ -4,7 +4,7 @@ name: dam
 
 #on tells when the workflows run
 on:
-  workflows_dispatch:
+  workflow_dispatch: 
 #jobs 
 #should be inside the name
 #jobs is the that needs indiatations and jobs have one or more jobs
