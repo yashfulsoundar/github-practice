@@ -1,0 +1,23 @@
+#workflows
+#should have name
+name: om
+
+#on tells when the workflows run
+on:
+  workflows_dispatch:
+#jobs 
+#should be inside the name
+#jobs is the that needs indiatations and jobs have one or more jobs
+jobs:
+ say-om:
+ #create an ephermal container with ubantu running 
+  runs-on: ubuntu-latest
+  #that epharmal container will have steps to execute, hence name those stepsrun the steps steps is cmd
+  steps:
+   - name: say hello to om
+    echo:"say hello  dosto"
+#steps
+#should be inside the jobs
+
+#actions
+#should be inside the steps
